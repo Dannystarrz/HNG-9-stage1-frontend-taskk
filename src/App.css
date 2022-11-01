@@ -1,4 +1,5 @@
 *{
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -8,8 +9,12 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
+
+.Profile-images{
+  display: flex;
+}
+
 
 #profile__img{
   margin-top: 64px;
@@ -19,8 +24,7 @@
 }
 
 #avatar{
-  margin-left: 284px;
-  margin-top: 44px;
+  
 }
 
 #twitter{
@@ -52,11 +56,17 @@
   color: #101828;
   border: none;
   border-radius: 8px;
+  font-size: 18px;
+}
+
+.btns:hover{
+  background-color: #D0D5DD;
+  transition-duration: 0.5s;
 }
 
 .social-media{
   margin-bottom: 64px;
-  padding: 24px 684px 24px 684px;
+  padding: 24px 503px 24px 503px;
   display: flex;
 }
 

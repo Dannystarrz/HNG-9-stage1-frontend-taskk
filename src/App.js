@@ -6,9 +6,11 @@ function App() {
 
       <section className='profile-section'>
 
-        <img src='../public/images/profile__img(1).png/' alt='profilePhoto' id='profile__img'></img>
+        <div className='profile-images'>
+          <img src='../public/images/profile__img(1).png/' alt='profilePhoto' id='profile__img'></img>
 
-        <img src='../public/images/_Avatar share button (1).png' alt='share' id='avatar'></img>
+          <img src='../public/images/_Avatar share button (1).png' alt='share' id='avatar'></img>
+        </div>
 
         <p id='twitter'>Dannystar007</p>
 
@@ -18,17 +20,17 @@ function App() {
 
       <section className='link-section'>
 
-      <a id='btn__zuri' href="https://twitter.com/DannyStar007"> <button className='btns'>Twitter Link</button> </a>
+        <a id='btn__zuri' href="https://twitter.com/DannyStar007"> <button className='btns'>Twitter Link</button> </a>
 
-      <a id='btn__zuri' href="https://training.zuri.team/"> <button className='btns'>Zuri Team</button> </a>
+        <a id='btn__zuri' href="https://training.zuri.team/"> <button className='btns'>Zuri Team</button> </a>
 
-      <a id='books' href="http://books.zuri.team"> <button className='btns'>Zuri Books</button> </a>
+        <a id='books' href="http://books.zuri.team"> <button className='btns'>Zuri Books</button> </a>
 
-      <a id='book__python' href="https://books.zuri.team/python-for-beginners?ref_id=<Dannystarr007>, "> <button className='btns'>Python Books</button> </a>
+        <a id='book__python' href="https://books.zuri.team/python-for-beginners?ref_id=<Dannystarr007>, "> <button className='btns'>Python Books</button> </a>
 
-      <a id='pitch' href="https://background.zuri.team"> <button className='btns'>Background check for coders</button> </a>
+        <a id='pitch' href="https://background.zuri.team"> <button className='btns'>Background check for coders</button> </a>
 
-      <a id='book__design' href="https://books.zuri.team/design-rules"> <button className='btns'>Design Books</button> </a>
+        <a id='book__design' href="https://books.zuri.team/design-rules"> <button className='btns'>Design Books</button> </a>
 
       </section>
 
