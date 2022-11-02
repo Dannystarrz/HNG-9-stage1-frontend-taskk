@@ -1,4 +1,9 @@
 import './App.css';
+import profileimage from './img/profile__img (1).png';
+import slckicon from './img/slack.png';
+import ghub from './img/Social icon.png';
+import zlogo from './img/Zuri.Internship_Logo.png';
+import iforg from './img/I4G.png';
 
 function App() {
   return (
@@ -6,11 +11,7 @@ function App() {
 
       <section className='profile-section'>
 
-        <div className='profile-images'>
-          <img src='../public/images/profile__img(1).png/' alt='profilePhoto' id='profile__img'></img>
-
-          <img src='../public/images/_Avatar share button (1).png' alt='share' id='avatar'></img>
-        </div>
+        <img src={profileimage} alt='profilePhoto' id='profile__img'></img>
 
         <p id='twitter'>Dannystar007</p>
 
@@ -36,21 +37,21 @@ function App() {
 
       <section className='social-media'>
 
-        <img src='../public/images/slack.png/' alt='slack' id='slack-icon'></img>
+        <img src={slckicon} alt='slack' id='slack-icon'></img>
 
-        <img src='../public/images/social icon.png/' alt='github'></img>
+        <img src={ghub} alt='github'></img>
 
       </section>
 
       <section className='footer'>
 
-        <img src='../public/images/Zuri.internship_Logo.png' alt='Zuri logo' className='sponsors'>
+        <img src={zlogo} alt='Zuri logo' className='sponsors'>
 
         </img>
 
         <p className='footer-text'>HNG internship 9 frontend task</p>
 
-        <img src='../public/images/I4G.png/' alt='I4g logo' className='sponsors'>
+        <img src={iforg} alt='I4g logo' className='sponsors'>
 
         </img>
 

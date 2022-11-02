@@ -11,21 +11,15 @@
   align-items: center;
 }
 
-.Profile-images{
-  display: flex;
-}
-
 
 #profile__img{
   margin-top: 64px;
-  width: 64px;
-  height: 64px;
+  width: 84px;
+  height: 84px;
   border-radius: 275px;
+  align-self: center;
 }
 
-#avatar{
-  
-}
 
 #twitter{
   font-weight: bold;
